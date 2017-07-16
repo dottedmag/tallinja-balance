@@ -4,7 +4,7 @@
 import sys
 import argparse
 import tallinja
-import tallinja.balance as balance
+from tallinja import balance
 OUT_DATE_FMT='%Y-%m-%d %H:%M:%S'
 
 def display(resp, bl=True, name=False, date=False):
